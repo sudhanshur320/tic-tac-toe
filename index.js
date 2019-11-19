@@ -49,4 +49,5 @@ function resetBox() {
     tdList.forEach( tdElement => 
         tdElement.innerHTML = ""
     );
+    document.getElementById("player").innerHTML= "<center>" + "Let's Play.." + "</center>";
 }
