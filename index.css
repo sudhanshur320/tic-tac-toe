@@ -1,0 +1,51 @@
+td{
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+}
+body{
+    background-color: #b3a7a9c4;
+}
+#title{
+    color: rgb(14, 26, 32);
+    letter-spacing: 6px;
+}
+#player{
+    color: rgb(14, 26, 32);
+}
+#restartbtn{
+    border: none;
+    padding: 2% 9%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 39%;
+    background-color: rgb(243, 161, 10);
+}
+
+@media only screen and (width:1024px){
+    td{
+        width: 200px;
+        height: 200px;
+        background: whitesmoke;
+        font-size: 70px;
+        text-align: center;
+        border-radius: 30px;
+    }
+    #title{
+        color: rgb(14, 26, 32);
+        letter-spacing: 25px;
+        font-size: 60px;
+    }
+    #player{
+        color: rgb(14, 26, 32);
+        font-size: 60px;
+    }
+}

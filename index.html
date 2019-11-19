@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>TIC TAC TOE</title>
+     <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+     <h1 id="title">
+          <center> TIC TAC TOE </center>
+     </h1>
+     <h1 id="player">
+          <center> Lets Play.. </center>
+     </h1>
+     <table>
+          <tr>
+               <td id="r1" onclick="printX('1')"></td>
+               <td id="r2" onclick="printX('2')"></td>
+               <td id="r3" onclick="printX('3')"></td>
+          </tr>
+          <tr>
+               <td id="r4" onclick="printX('4')"></td>
+               <td id="r5" onclick="printX('5')"></td>
+               <td id="r6" onclick="printX('6')"></td>
+          </tr>
+          <tr>
+               <td id="r7" onclick="printX('7')"></td>
+               <td id="r8" onclick="printX('8')"></td>
+               <td id="r9" onclick="printX('9')"></td>
+          </tr>
+
+     </table>
+     <button id="restartbtn" onclick="resetBox()"> Restart </button>
+
+     <script src="index.js"></script>
+</body>
+
+</html>
